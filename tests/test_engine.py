@@ -8,7 +8,6 @@ import torch
 from nanochat.engine import KVCache, Engine
 from dataclasses import dataclass
 
-
 # -----------------------------------------------------------------------------
 # Mock classes for testing Engine without loading a real model
 

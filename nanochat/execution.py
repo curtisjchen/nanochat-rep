@@ -20,7 +20,6 @@ What is not covered:
 Overall this sandbox is good for evaluation of generated code and protects against
 accidental destructive behavior, but it is not safe against malicious adversarial code.
 """
-
 import contextlib
 import faulthandler
 import io

@@ -11,7 +11,6 @@ Notable features:
 - Group-Query Attention (GQA) support for more efficient inference
 - Flash Attention 3 integration
 """
-
 from functools import partial
 from dataclasses import dataclass
 

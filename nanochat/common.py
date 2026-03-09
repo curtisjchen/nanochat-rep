@@ -1,7 +1,6 @@
 """
 Common utilities for nanochat.
 """
-
 import os
 import re
 import logging

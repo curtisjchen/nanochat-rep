@@ -6,7 +6,6 @@ This file contains utilities for:
 
 For details of how the dataset was prepared, see `repackage_data_reference.py`.
 """
-
 import os
 import argparse
 import time

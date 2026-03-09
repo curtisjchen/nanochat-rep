@@ -5,7 +5,6 @@ Two implementations are available:
 1) HuggingFace Tokenizer that can do both training and inference but is really confusing
 2) Our own RustBPE Tokenizer for training and tiktoken for efficient inference
 """
-
 import os
 import copy
 from functools import lru_cache

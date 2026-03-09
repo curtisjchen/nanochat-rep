@@ -16,7 +16,6 @@ Usage (drop-in replacement for FA3):
 import torch
 import torch.nn.functional as F
 
-
 # =============================================================================
 # Detection: Try to load FA3 on Hopper+ GPUs
 # =============================================================================

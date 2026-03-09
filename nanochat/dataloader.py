@@ -15,7 +15,6 @@ now attend back to the BOS token and sees the full context of the document.
 Fallback to the original if you have very limited data AND long documents:
 https://github.com/karpathy/nanochat/blob/3c3a3d7/nanochat/dataloader.py#L78-L117
 """
-
 import torch
 import pyarrow.parquet as pq
 

@@ -10,7 +10,6 @@ Notes:
 
 The whole thing is made as efficient as possible.
 """
-
 import torch
 import torch.nn.functional as F
 import signal

@@ -41,7 +41,6 @@ from nanochat.engine import Engine
 
 # -----------------------------------------------------------------------------
 # HuggingFace loading utilities
-
 class ModelWrapper:
     """Lightweight wrapper to give HuggingFace models a nanochat-compatible interface."""
     def __init__(self, model, max_seq_len=None):
