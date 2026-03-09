@@ -1,6 +1,6 @@
 # nanochat-rep
 
-nanochat-rep is a replication of Andrej Karpathy's nanochat which builds upon nanogpt by covering post-training and creating a chatbot from pretraining a GPT-2 style transformer. This implementation costs around ~$50 to train in around 2 hours using 8xH100 GPUs. Nanochat is configured to train an entire series of compute-optimal models by setting `--depth` which will adjust the hidden dimensions, learning rate, number of heads, and other hyperparameters which affect training performance.
+This repo is a replication of work done by Andrej Karpathy and done as a learning exercise. nanochat-rep is a replication of nanochat which builds upon nanogpt by covering post-training and creating a chatbot from pretraining a GPT-2 style transformer. This implementation costs around ~$50 to train in around 2 hours using 8xH100 GPUs. Nanochat is configured to train an entire series of compute-optimal models by setting `--depth` which will adjust the hidden dimensions, learning rate, number of heads, and other hyperparameters which affect training performance.
 
 ----------------------------------------------------------------------------------
 
@@ -65,9 +65,8 @@ The script [runs/runcpu.sh](runs/runcpu.sh) shows a very simple example of runni
 └── uv.lock
 ```
 
-## Cite
+## Acknowledgements
 
-If you find nanochat helpful in your research cite simply as:
 
 ```bibtex
 @misc{nanochat,
